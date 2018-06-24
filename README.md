@@ -16,9 +16,9 @@ The gamma parameter has a range of 0 to 1 (0 <= gamma > 1) and ensures the conve
 
 #### The Q-Learning algorithm goes as follows:
 
-1. We need to set the gamma parameter, and environment rewards in matrix R. --
-2. Initialize matrix Q to zero. --
-3. For each episode:
+1. We need to set the gamma parameter, and environment rewards in matrix R. 
+2. Initialize matrix Q to zero. 
+3. For each episode: 
 Select a random initial state.
 Do While the goal state hasn't been reached.
 •	Select one among all possible actions for the current state.
