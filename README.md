@@ -25,10 +25,10 @@ The gamma parameter has a range of 0 to 1 (0 <= gamma > 1) and ensures the conve
 3. For each episode: 
 Select a random initial state.
 Do While the goal state hasn't been reached.
-•	Select one among all possible actions for the current state.
-•	Using this possible action, consider going to the next state.
-•	Get maximum Q value for this next state based on all possible actions.
-•	Compute: Q (state, action) = R (state, action) + gamma * Max [Q (next state, all actions)]
-•	Set the next state as the current state.
-End Do
-End For
+*Select one among all possible actions for the current state.
+*Using this possible action, consider going to the next state.
+*Get maximum Q value for this next state based on all possible actions.
+*Compute: Q (state, action) = R (state, action) + gamma * Max [Q (next state, all actions)]
+*Set the next state as the current state.
+*End Do
+*End For
