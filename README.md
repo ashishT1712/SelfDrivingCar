@@ -3,6 +3,8 @@
 ### Introduction
 We introduced a deep Q- network (DQN) agent to perform the task of self-driving car. We evaluated our car model’s performance with standard agents in a racing simulation environment. Our results indicate that our DQN agent is capable of successfully controlling a car to navigate around a simulation environment. The idea of this research is to make an intelligent control system that uses the concepts of deep learning with q learning to increase the efficiency of self-driving car. The plan is to use the concept of neural networks and other Artificial Intelligence techniques and algorithms to create the intelligent system.
 
+![selfdrivingcar]()
+
 ### Problem Description
 Our problem is formulated as a Markov Decision Process (MDP) in which at each timestep t, an agent observes a state st and performs an action at that leads it to a new state st+1 and observes a corresponding reward rt = R (st, at). We will use of reinforcement learning approaches and thus do not assume a transition model T (st, at, st+1) between the states st and then next state st+1. 
 
