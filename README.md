@@ -16,7 +16,7 @@ Q (state, action) = R (state, action) + gamma * Max [Q (next state, all actions)
 
 The gamma parameter has a range of 0 to 1 (0 <= gamma > 1) and ensures the convergence of the sum.  If gamma is closer to zero, the agent will tend to consider only immediate rewards.  If gamma is closer to one, the agent will consider future rewards with greater weight, willing to delay the reward.
 
-![Q-Learning]()
+![Q-Learning](https://github.com/ashishT1712/SelfDrivingCar/blob/master/q-learn1.png)
 
 #### The Q-Learning algorithm goes as follows:
 
