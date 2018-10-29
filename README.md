@@ -8,7 +8,7 @@ We introduced a deep Q- network (DQN) agent to perform the task of self-driving 
 ### Problem Description
 Our problem is formulated as a Markov Decision Process (MDP) in which at each timestep t, an agent observes a state st and performs an action at that leads it to a new state st+1 and observes a corresponding reward rt = R (st, at). We will use of reinforcement learning approaches and thus do not assume a transition model T (st, at, st+1) between the states st and then next state st+1. 
 
-#### Q-Learning Approach
+### Q-Learning Approach
 The Q-Learning algorithm was proposed as a way to optimize solutions in Markov decision process problems.  The feature of Q-Learning is in its capacity to choose between immediate rewards and delayed rewards.  At each step of time, an agent observes the vector of state xt, then chooses and applies an action ut. As the process moves to state xt+1, the agent receives a reinforcement r (xt, ut).  The goal of the training is to find the order of actions in sequence which maximizes the sum of the future reinforcements, thus leading to the shortest path from start to finish[4].
 
 The transition rule of Q learning is a very simple formula:
